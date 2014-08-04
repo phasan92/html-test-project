@@ -1,0 +1,218 @@
+﻿<style>
+.login-form{
+	width:300px;
+	margin:10% auto 0;
+	height:auto;
+	background:#ffffff;
+	border-radius:5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border:1px solid #ebeef4;
+	-webkit-box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.52);
+	-moz-box-shadow:    0px 0px 8px 0px rgba(50, 50, 50, 0.52);
+	box-shadow:         0px 0px 8px 0px rgba(50, 50, 50, 0.52);
+}
+
+.login-header{
+	background:#f7f7f7;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+	overflow:hidden;
+}
+.login-header h1{
+	font-size:22px;
+	color:#4aaf9a;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+.linked-login{
+	width:auto;
+	height:auto;
+	 margin: 0 0 20px;
+}
+.linked-login h6{
+	color: #818181;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 28px;
+    margin: 0;
+    text-align: center;
+}
+.linkedin-login{
+	list-style:none;
+	margin-top:20px;
+	padding-left:44px;
+}
+.linkedin-login li{
+	float:left;
+	margin-right:2px;
+	
+}
+.linkedin-login li a{
+	display:block;
+}
+.linkedin-login .login-linkedin{
+	text-decoration:none;
+	padding:7px 35px;
+	color:#fff;
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.login-linkedin{
+	background: rgba(55,149,212,1);
+	background: -moz-linear-gradient(top, rgba(55,149,212,1) 0%, rgba(55,149,212,1) 11%, rgba(21,89,135,1) 92%, rgba(21,89,135,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(55,149,212,1)), color-stop(11%, rgba(55,149,212,1)), color-stop(92%, rgba(21,89,135,1)), color-stop(100%, rgba(21,89,135,1)));
+	background: -webkit-linear-gradient(top, rgba(55,149,212,1) 0%, rgba(55,149,212,1) 11%, rgba(21,89,135,1) 92%, rgba(21,89,135,1) 100%);
+	background: -o-linear-gradient(top, rgba(55,149,212,1) 0%, rgba(55,149,212,1) 11%, rgba(21,89,135,1) 92%, rgba(21,89,135,1) 100%);
+	background: -ms-linear-gradient(top, rgba(55,149,212,1) 0%, rgba(55,149,212,1) 11%, rgba(21,89,135,1) 92%, rgba(21,89,135,1) 100%);
+	background: linear-gradient(to bottom, rgba(55,149,212,1) 0%, rgba(55,149,212,1) 11%, rgba(21,89,135,1) 92%, rgba(21,89,135,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3795d4', endColorstr='#155987', GradientType=0 );
+	border-top-left-radius:4px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-top-left-radius: 5px;
+	border-bottom-left-radius:4px;
+	-webkit-bottom-left-right-radius: 5px;
+	-moz-bottom-left-right-radius: 5px;
+}
+.clear{
+	clear:both;
+}
+.controls{
+	width:auto;
+	overflow:hidden;
+	text-align:center;
+}
+
+.controls ul{
+	list-style:none;
+	margin:0;
+	padding-left: 43px;
+}
+
+.controls ul li{
+	float:left;
+	margin-right:2px;
+}
+
+#username{
+	background:#f2f2f2;
+	border:none;
+	border-top-right-radius:3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-top-right-radius: 3px;
+	border-bottom-right-radius:3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-bottom-right-radius: 3px;
+	padding: 7px 23px 7px 15px;
+}
+#password{
+	background:#f2f2f2;
+	border:none;
+	border-top-right-radius:3px;
+	border-bottom-right-radius:3px;
+	padding: 7px 23px 7px 15px;
+}
+/*.controls btn{
+	line-height: 37px;
+    margin: 0;
+    text-align: center;
+}*/
+.controls #loginButton{
+	margin:auto;
+	color:#757575;
+	background:#f2f2f2;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	padding: 8px 82px 7px;
+	border:none;
+	border-radius:3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	cursor:pointer;
+}
+.controls #loginButton:hover{
+	color:#185f8f;
+}
+.login-footer {
+    margin: 0 auto;
+    width: 212px;
+}
+.login-footer h3, .login-footer h3 a{
+	text-align:center;
+	color:#757575;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.login-footer h3 a:hover{
+	color:#185f8f;
+}
+.login-footer ul{
+	list-style:none;
+	padding:0;
+}
+.login-footer ul li{
+	display:inline-block;
+	margin-right:50px;
+}
+.login-footer ul li:last-child{
+	margin:0;
+}
+.login-footer ul li a{
+	text-decoration:none;
+	color:#757575;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.login-footer ul li a:hover{
+	color:#185f8f;
+}
+</style>
+
+<div class="login-form">
+    <!--<div id="login-alert" class="alert alert-error" style="display:none;">
+    </div>-->
+    <div class="login-header"><h1>Login Form</h1></div>
+    <div class="linked-login">
+    	<ul class="linkedin-login">
+        	<li class="login-linkedin">Login with LinkedIn</li>
+            <li><a href="#" id="login-linkedIn" ><img src="../../../../../../images/loaders/linkedin.jpg" alt="" /></a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div>
+        <form class="form-horizontal">
+            <div class="control-group">
+                <div class="controls">
+                    <ul>
+                    	<li class="user"><img src="../../../../../../images/loaders/user-bg.jpg" alt="" /></li>
+                    	<li class="username"><input type="text" id="username" placeholder="Username"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <ul>
+                    	<li><img src="../../../../../../images/loaders/pass-bg.jpg" alt="" /></li></li>
+                    	<li><input type="password" id="password" placeholder="Password"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="control-group" style="margin-top: 10px">
+                <div class="controls">
+                    <!--<h2><a href="#">Log in</a></h2>-->
+                    <button type="submit" class="btn" id="loginButton">Sign in</button>
+                </div>
+            </div>
+            
+        </form>
+        <div class="login-footer">
+        	<h3><a href="#">Sign in with Linkedin</a></h3>
+            <ul>
+                <li><a href="#" id="resetPassword">Reset Password</a></li>
+                <li><a href="#" id="register">Register</a></li>
+            </ul>
+        </div>
+        <div></div>
+        </div>
+    </div></div>

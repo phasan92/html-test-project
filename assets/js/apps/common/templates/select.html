@@ -1,0 +1,4 @@
+﻿<option value="all">All</option>
+<%_.each(items, function(item){%>
+    <option value="<%=item.EntityID%>" <%if (selectedValue == item.EntityID){print("selected");}%>><%=item.Name%></option>
+<%})%>

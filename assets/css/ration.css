@@ -1,0 +1,256 @@
+﻿.no-close .ui-dialog-titlebar-close {
+display: none;
+}
+
+body {
+    font-family: Arial;
+}
+
+.salesTable table
+{
+    border: 1px solid black;
+}
+
+.salesTable th
+{
+    border: 1px solid black;
+}
+
+.salesTable td {
+    white-space: nowrap;
+    padding-left: 4px;
+    padding-right: 4px;
+    border: 1px solid black;
+}
+
+.salesTable {
+    border-spacing: 0;
+    padding: 0;
+}
+
+.product-group-heading {
+    background: black;
+    font-weight: bold;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.product-heading
+{
+    background: #D9D9D9;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.q-heading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.q1-light
+{
+    background: #C5D9F1;
+}
+
+.q1-dark
+{
+    background: #8DB4E2;
+}
+
+.q1-verydark
+{
+    background: #538DD5;
+}
+
+.q2-light
+{
+    background: #F2DCDB;
+}
+
+.q2-dark
+{
+    background: #E6B8B7;
+}
+
+.q2-verydark
+{
+    background: #DA9694;
+}
+
+.q3-light
+{
+    background: #EBF1DE;
+}
+
+.q3-dark
+{
+    background: #C4D79B;
+}
+
+.q3-verydark
+{
+    background: #C4D79B;
+}
+
+.q4-light
+{
+    background: #E4DFEC;
+}
+
+.q4-dark
+{
+    background: #CCC0DA;
+}
+
+.q4-verydark
+{
+    background: #B1A0C7;
+}
+
+.week
+{
+    background-color: #92CDDC;
+    text-align: right;
+    font-weight: bold;
+}
+
+.weekBeginning
+{
+    text-align: right;
+}
+
+.brand
+{
+    text-align: right;
+}
+
+.centered {
+    text-align: center;
+}
+
+.product-summary
+{
+    text-align: right;
+}
+
+.product-sub-summary
+{
+    text-align: right;
+    background-color: #BFBFBF;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.inline {
+    display: inline;
+}
+
+.blackBorder{
+    border: 1px solid black;
+}
+
+.brandDetails {
+    text-align: center;
+    width: 180px;
+    border: black solid 1px;
+    margin-bottom: 5px;
+}
+
+.detailsTitle {
+    font-weight: bold;
+    background: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.appIcon {
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.cellLabel {
+    text-align: right;
+}
+
+.defaultTile {
+    text-align: center;
+    border: black solid 1px;
+    height: 200px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.distributorTile {
+    text-align: center;
+    border: black solid 1px;
+    height: 200px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.batchTile {
+    text-align: center;
+    border: black solid 1px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.borderless {
+    border: none;
+}
+
+.salesData {
+    color: black;
+}
+
+.orderProjected {
+    background: lightgrey;
+}
+
+.orderAllocated {
+    background: lightyellow;
+    color: black;
+}
+
+.orderCommitted {
+    background: lightgreen;
+    color: black;
+}
+
+.orderInvoiced {
+    background: white;
+    color: black;
+}
+
+.dateInput {
+    height: 32px;
+}
+
+.strong {
+    font-weight: bold;
+    color: black;
+}
+
+.batchUpcoming {
+    background: lightgrey;
+}
+
+.batchAvailable {
+    background: white;
+    color: black;
+}
+
+.right {
+    text-align: right;
+    white-space: nowrap;
+}
